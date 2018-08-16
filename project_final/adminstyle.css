@@ -1,0 +1,179 @@
+    h1,h3{
+        font-family: 'Georgia', sans-serif;
+    }
+
+    #viewtable{
+
+        padding: 20px;
+    }
+
+    #backgroundmain{
+        margin-left: 30px;
+        background-color: 'green';
+    }
+
+    #nav{
+        float:left;
+        width:300px;
+    }
+    input::placeholder {
+  color: red;
+}
+    .table-bordered{
+        vertical-align: center;
+        margin: 10px auto;
+        width: 800px;
+
+    }
+    .row-flex {
+    display: flex;
+    flex-flow: row wrap;
+    }
+    .col-flex-item {
+    display: flex;
+    flex-flow: column;
+    }
+    .vertical-divider {
+    border-right: 5px solid black;
+    }
+
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    .centre-posit{
+        position: absolute;
+        top:2%;
+        left:30%;
+        transform: translate(-50%,-50%);
+    }
+    .mycontent-left {
+    border-right: 1px dashed #333;
+    }
+    .row-flex {
+    display: flex;
+    flex-flow: row wrap;
+    }
+    .col-flex-item {
+    display: flex;
+    flex-flow: column;
+    }
+    .vertical-divider {
+    border-right: 1px solid black;
+    }
+
+    .vertical-align-center {
+    /* To center vertically */
+    vertical-align: middle;
+    pointer-events: auto;
+    }
+    
+    .navbar-inverse
+    {
+        background:#00796B;
+        border-bottom-color: #004D40;
+    }
+    .navbar-inverse .navbar-nav>li>a,.navbar-inverse .navbar-brand,.navbar-inverse .navbar-nav>.dropdown>a .caret
+    {
+        color: #fff;
+    }
+    .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus,
+    .navbar-nav>li>.dropdown-menu
+    {
+        background:#4DB6AC;
+    }
+    .nav-pills>li>a
+    {
+        color: #303F9F;
+    }
+
+    .nav>li>a:hover, .nav>li>a:focus
+    {
+        background-color: #EEEEEE;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 250px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #00796B;
+      color: white;
+      padding: 15px;
+    }
+
+    .content {
+  min-height: calc(100vh - 150px);
+}
+    .footer {
+  height: 80px;
+  margin-bottom: 0px;
+    }
+
+
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+
+
+    .ui-widget.success-dialog {
+    font-family: Verdana,Arial,sans-serif;
+    font-size: .8em;
+}
+
+.ui-widget-content.success-dialog {
+    background: #F9F9F9;
+    border: 1px solid #90d93f;
+    color: #222222;
+}
+
+.ui-dialog.success-dialog {
+    left: 0;
+    outline: 0 none;
+    padding: 0 !important;
+    position: absolute;
+    top: 0;
+}
+
+.ui-dialog.success-dialog .ui-dialog-content {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    overflow: auto;
+    position: relative;
+    padding: 0 !important;
+    margin: 0;
+}
+
+.ui-dialog.success-dialog .ui-widget-header {
+    /*background: black;*/
+    border: 0;
+    color: #fff;
+    font-weight: normal;
+}
+
+.ui-dialog.success-dialog .ui-dialog-titlebar {
+    padding: 0.1em .5em;
+    position: relative;
+    font-size: 1em;
+}
+#welcometext{
+    text-align: left;
+}
+
+#rightnavstudent{
+margin-left: 600px;
+}
